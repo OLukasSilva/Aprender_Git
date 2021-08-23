@@ -1,0 +1,90 @@
+ 
+ public class pessoa {
+   
+   private String nome;
+   private String sobreNome;
+   private Double altura;
+   private Double idade;
+   private String sexo;
+   
+ 
+   pulic pessoa( String nome, String sobreNome, Double altura, Double idade, String sexo) {
+	This.nome = nome;
+	This.sobreNome = sobreNome;
+	This.altura = altura;
+	This.idade = idade;
+	This.sexo = sexo;   
+   
+   }
+   
+   
+
+
+	public String getnome(){
+
+		return nome;
+	} 
+
+
+
+	public void setnome (){
+
+		this.nome = nome;
+	} 
+
+
+	public Sting getsobreNome() {
+
+		return sobreNome;
+	}
+
+
+
+	public void setsobreNome () {
+
+		this.sobreNome = sobreNome;
+	}
+
+
+
+	public Double getaltura(){
+
+		return altura;
+	} 
+
+
+	public void setaltura (){
+
+		this.altura = altura;
+	} 
+
+
+
+	public Double getidade(){
+
+		return idade;
+	} 
+
+
+	public void setidade (){
+
+		this.idade = idade;
+	} 
+
+
+
+
+	public String getsexo() { 
+		returnsexo;
+	}
+
+
+
+	public void setsexo () {
+
+		this.sexo = sexo;
+	}
+
+
+ 
+ }
